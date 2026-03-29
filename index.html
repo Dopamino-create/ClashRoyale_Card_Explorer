@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clash Royale Cards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="top-bar">
+  <h1>Clash Royale Cards</h1>
+  <button id="themeToggle">🌙 Dark Mode</button>
+</div>
+  <div class="controls">
+    <select id="sortOption">
+      <option value="">Sort By</option>
+
+      <option  value="name-asc">Name (A → Z)</option>
+      <option value="name-desc">Name (Z → A)</option>
+
+      <option value="elixir-asc">Elixir (Low → High)</option>
+      <option value="elixir-desc">Elixir (High → Low)</option>
+
+    </select>
+  </div>
+
+  <div class="container">
+    <div id="cards" class="cards"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
