@@ -64,7 +64,7 @@ sortOption.addEventListener("change", (e) => {
   let sortedCards = [...allCards];
 
   if (sortBy === "name-asc") {
-    sortedCards.sort((a, b) => a.name.localeCompare(b.name));
+    sortedCards.sort();
 
   } else if (sortBy === "name-desc") {
     sortedCards.sort((a, b) => b.name.localeCompare(a.name));
